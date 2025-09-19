@@ -51,7 +51,5 @@ int main(){
     //copy all data members with value of ramesh
     //copy constructor call
     hero R(ramesh);
-    R.print();
-
-   
+    R.print();   
 }
