@@ -32,7 +32,7 @@ int main(){
     cout<<a.timetocomplete<<endl; //not to use it because static keyword we use for class not 
     //for objects
 
-    hero b;
+    hero b; 
     b.timetocomplete=10;
     cout<<a.timetocomplete<<endl;
     cout<<b.timetocomplete<<endl;

@@ -27,12 +27,12 @@ class hero{
      hero(hero &temp){ 
         cout<<"copy constructor called"<<this<<endl;
         this->health=health;
-        this->level=level;
+        // this->level=level;
     }
 
     void print(){
         cout<<this->health<<endl; //this because to know that we are talking about particular object
-        cout<<this->level<<endl;
+        // cout<<this->level<<endl;
     }
 };
 
@@ -45,7 +45,7 @@ int main(){
     // hero *b=new hero;
 
     //when one constructor is made then default constructor will be removed
-    hero ramesh(20,'B');
+    hero ramesh(20);
     ramesh.print();
 
     //copy all data members with value of ramesh

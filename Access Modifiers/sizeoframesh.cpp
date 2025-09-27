@@ -5,9 +5,9 @@ using namespace std;
 class hero{
 
     //properties
-    private: 
-    int health;
-    public:
+    // public: 
+    // int health;
+    private:
     char level;
 };
 
